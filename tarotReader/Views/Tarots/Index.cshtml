@@ -1,0 +1,59 @@
+@model IEnumerable<Tarots>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TarotName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TarotDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TarotLove)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TarotCareer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TarotWealth)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TarotName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TarotDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TarotLove)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TarotCareer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TarotWealth)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TarotId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TarotId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TarotId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

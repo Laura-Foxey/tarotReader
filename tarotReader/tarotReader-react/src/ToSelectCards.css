@@ -1,0 +1,45 @@
+* {box-sizing:border-box;}
+
+.cardDeck {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-left: -2rem;
+}
+
+.card {
+  list-style: none;
+  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/card.png');
+  background-size: 100%;
+  border-radius: 10px;
+  float: left;
+  width: 129px;
+  height: 205px;
+  box-shadow: 1px 1px 10px 0.5px rgb(35, 35, 35);
+  transition: 0.2s;
+}
+
+.card:not(:first-child) {
+  margin-left: -6rem;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.cardClicked:hover {
+  transform: translateY(-1rem);
+}
+
+.card:hover ~.card{
+  transform: translateX(0.1rem);
+}
+
+#done {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+
+
+
