@@ -9,7 +9,7 @@
 
 .card {
   list-style: none;
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/card.png');
+  background-image: url('../sprites/tarot/card.png');
   background-size: 100%;
   border-radius: 10px;
   float: left;

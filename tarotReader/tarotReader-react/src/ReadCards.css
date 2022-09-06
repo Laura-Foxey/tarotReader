@@ -6,7 +6,7 @@
 }
 
 section {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/card.png');
+  background-image: url('../sprites/tarot/card.png');
   background-size: 100%;
   border-radius: 20px;
   float: left;
@@ -58,7 +58,7 @@ button:hover{
 }
 
 .resultcard-back {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/card.png');
+  background-image: url('../sprites/tarot/card.png');
   background-size: 100%;
   border-radius: 20px;
   float: left;
@@ -79,70 +79,70 @@ button:hover{
 }
 
 #card_nb_1, #card_nb_23{
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/1.jpeg');
+  background-image: url('../sprites/tarot/golden/1.jpeg');
 }
 #card_nb_2, #card_nb_24{
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/2.jpeg');
+  background-image: url('../sprites/tarot/golden/2.jpeg');
 }
 #card_nb_3, #card_nb_25{
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/3.jpeg');
+  background-image: url('../sprites/tarot/golden/3.jpeg');
 }
 #card_nb_4, #card_nb_26{
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/4.jpeg');
+  background-image: url('../sprites/tarot/golden/4.jpeg');
 }
 #card_nb_5, #card_nb_27{
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/5.jpeg');
+  background-image: url('../sprites/tarot/golden/5.jpeg');
 }
 #card_nb_6, #card_nb_28{
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/6.jpeg');
+  background-image: url('../sprites/tarot/golden/6.jpeg');
 }
 #card_nb_7, #card_nb_29 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/7.jpeg');
+  background-image: url('../sprites/tarot/golden/7.jpeg');
 }
 #card_nb_8, #card_nb_30 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/8.jpeg');
+  background-image: url('../sprites/tarot/golden/8.jpeg');
 }
 #card_nb_9, #card_nb_31 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/9.jpeg');
+  background-image: url('../sprites/tarot/golden/9.jpeg');
 }
 #card_nb_10, #card_nb_32 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/10.jpeg');
+  background-image: url('../sprites/tarot/golden/10.jpeg');
 }
 #card_nb_11, #card_nb_33 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/11.jpeg');
+  background-image: url('../sprites/tarot/golden/11.jpeg');
 }
 #card_nb_12, #card_nb_34 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/12.jpeg');
+  background-image: url('../sprites/tarot/golden/12.jpeg');
 }
 #card_nb_13, #card_nb_35 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/13.jpeg');
+  background-image: url('../sprites/tarot/golden/13.jpeg');
 }
 #card_nb_14, #card_nb_36 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/14.jpeg');
+  background-image: url('../sprites/tarot/golden/14.jpeg');
 }
 #card_nb_15, #card_nb_37 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/15.jpeg');
+  background-image: url('../sprites/tarot/golden/15.jpeg');
 }
 #card_nb_16, #card_nb_38 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/16.jpeg');
+  background-image: url('../sprites/tarot/golden/16.jpeg');
 }
 #card_nb_17, #card_nb_39 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/17.jpeg');
+  background-image: url('../sprites/tarot/golden/17.jpeg');
 }
 #card_nb_18, #card_nb_40 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/18.jpeg');
+  background-image: url('../sprites/tarot/golden/18.jpeg');
 }
 #card_nb_19, #card_nb_41 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/19.jpeg');
+  background-image: url('../sprites/tarot/golden/19.jpeg');
 }
 #card_nb_20, #card_nb_42 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/20.jpeg');
+  background-image: url('../sprites/tarot/golden/20.jpeg');
 }
 #card_nb_21, #card_nb_43 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/21.jpeg');
+  background-image: url('../sprites/tarot/golden/21.jpeg');
 }
 #card_nb_22, #card_nb_44 {
-  background-image: url('/Users/saltdev/Documents/WeekendTests/dnfs-summer-22-test-reactTodo/tarotreader/sprites/tarot/golden/22.jpeg');
+  background-image: url('../sprites/tarot/golden/22.jpeg');
 }
 
 
